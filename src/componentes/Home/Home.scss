@@ -1,0 +1,30 @@
+.Home{
+    display:flex;
+        header{
+            height: 550px;
+            margin-top: 50px;
+            margin-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+            img{
+                border-radius: 20%;
+            }
+            button{
+                background-color: crimson;
+                color: white;;
+                font-weight: 600;
+                height: 25px;
+                width: 100px;
+                border-radius: 2%;
+                border: 1px solid black;
+                font-family: 'Courier New', Courier, monospace;
+                cursor: pointer;
+                
+            }
+            
+        }
+}
+
